@@ -1,8 +1,8 @@
 package TestAmf
 
 import (
-	"github.com/free5gc/openapi/models"
 	"github.com/google/uuid"
+	"github.com/nycu-ucr/openapi/models"
 )
 
 func BuildSmfNfProfile() (uuId string, profile models.NfProfile) {

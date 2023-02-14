@@ -1,7 +1,7 @@
 package TestRegistrationProcedure
 
 import (
-	"github.com/free5gc/openapi/models"
+	"github.com/nycu-ucr/openapi/models"
 )
 
 const (

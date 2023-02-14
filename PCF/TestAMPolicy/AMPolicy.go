@@ -1,8 +1,9 @@
 package TestAMPolicy
 
 import (
-	"github.com/free5gc/openapi/models"
 	"time"
+
+	"github.com/nycu-ucr/openapi/models"
 )
 
 //Data type definition TS 29.571//
@@ -164,8 +165,8 @@ func GetAMUpdateReqData() models.PolicyAssociationUpdateRequest {
 
 //-------------------------------------------------------------------------------------------------
 
-//-------------------------------------------------------------------------------------------------
-//Fail Test (Create part)
+// -------------------------------------------------------------------------------------------------
+// Fail Test (Create part)
 func GetamCreatefailnotifyURIData() models.PolicyAssociationRequest {
 	//d := time.Date(2019, 7, 5, 12, 30, 0, 0, time.UTC)
 	amCreatefailnotifyURIData := GetAMreqdata()

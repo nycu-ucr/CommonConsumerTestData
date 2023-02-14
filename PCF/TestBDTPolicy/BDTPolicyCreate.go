@@ -1,8 +1,9 @@
 package TestBDTPolicy
 
 import (
-	"github.com/free5gc/openapi/models"
 	"time"
+
+	"github.com/nycu-ucr/openapi/models"
 )
 
 func GetCreateTestData() models.BdtReqData {

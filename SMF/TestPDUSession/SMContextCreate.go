@@ -2,11 +2,12 @@ package TestPDUSession
 
 import (
 	"bytes"
-	"github.com/free5gc/nas"
-	"github.com/free5gc/nas/nasMessage"
-	"github.com/free5gc/nas/nasType"
-	"github.com/free5gc/openapi/models"
+
 	"github.com/google/uuid"
+	"github.com/nycu-ucr/nas"
+	"github.com/nycu-ucr/nas/nasMessage"
+	"github.com/nycu-ucr/nas/nasType"
+	"github.com/nycu-ucr/openapi/models"
 )
 
 const (
