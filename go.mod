@@ -1,4 +1,4 @@
-module github.com/free5gc/CommonConsumerTestData
+module github.com/nycu-ucr/CommonConsumerTestData
 
 go 1.14
 
